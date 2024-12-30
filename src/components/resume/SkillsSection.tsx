@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { skillCategories } from "./SkillsData";
 
 const SkillsSection = () => (
-  <Card>
+  <Card className="bg-blue-50">
     <CardHeader>
       <CardTitle>Technical Skills</CardTitle>
     </CardHeader>
@@ -18,7 +18,7 @@ const SkillsSection = () => (
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
+                  className="bg-white text-gray-800 px-3 py-1 rounded-full text-sm shadow-sm"
                 >
                   {skill}
                 </span>
