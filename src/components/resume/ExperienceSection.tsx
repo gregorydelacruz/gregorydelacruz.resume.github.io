@@ -17,11 +17,14 @@ const ExperienceSection = () => (
           SMD Software (Sitelink) is a $12 million firm which is the leading provider of Software-as-a-Service (SaaS) to the Self Storage industry. 
           They serve over 9500 customers including 70% of the top 100 operating groups in the country.
         </p>
-        <p className="text-gray-600 mt-4">
-          <span className="font-semibold">Responsibilities:</span> Provide technical support by diagnosing and resolving hardware, software, and network issues. 
-          Manage system maintenance, installations, and security compliance. Collaborate on IT projects, ensure reliable operations, 
-          document solutions, and deliver training to enhance efficiency and user satisfaction.
-        </p>
+        <div className="mt-4">
+          <p className="font-semibold text-gray-800">Responsibilities:</p>
+          <p className="text-gray-600 mt-2">
+            Provide technical support by diagnosing and resolving hardware, software, and network issues. 
+            Manage system maintenance, installations, and security compliance. Collaborate on IT projects, ensure reliable operations, 
+            document solutions, and deliver training to enhance efficiency and user satisfaction.
+          </p>
+        </div>
         <div className="mt-4">
           <p className="font-semibold text-gray-800">Accomplishments:</p>
           <ul className="list-disc list-inside mt-2 text-gray-600 space-y-2">
