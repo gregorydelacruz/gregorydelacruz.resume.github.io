@@ -87,8 +87,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
-      {/* Header Section */}
       <div className="max-w-4xl mx-auto">
+        {/* Header Section */}
         <div className="flex flex-col sm:flex-row items-center gap-6 mb-8">
           <Avatar className="h-24 w-24">
             <AvatarImage src="/placeholder.svg" alt="Profile Picture" />
@@ -113,7 +113,7 @@ const Index = () => {
           </div>
         </div>
 
-      {/* About Section */}
+        {/* About Section */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -128,7 +128,7 @@ const Index = () => {
           </CardContent>
         </Card>
 
-      {/* Experience Section */}
+        {/* Experience Section */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -148,7 +148,7 @@ const Index = () => {
           </CardContent>
         </Card>
 
-      {/* Education Section */}
+        {/* Education Section */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -167,34 +167,35 @@ const Index = () => {
           </CardContent>
         </Card>
 
-      {/* Skills Section */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Technical Skills</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {skillCategories.map((category) => (
-              <div key={category.title} className="space-y-3">
-                <div className="flex items-center gap-2 font-semibold">
-                  {category.icon}
-                  {category.title}
+        {/* Skills Section */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Technical Skills</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {skillCategories.map((category) => (
+                <div key={category.title} className="space-y-3">
+                  <div className="flex items-center gap-2 font-semibold">
+                    {category.icon}
+                    {category.title}
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {category.skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 };
