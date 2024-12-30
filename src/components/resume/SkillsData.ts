@@ -1,60 +1,126 @@
 import { 
   Monitor, Command, MessageSquare, Network, Shield, Wrench,
   Database, Download, Cloud, Computer, Save, FileText,
-  Search, Palette, Code, Key, Globe, Server, BarChart,
-  Zap, ShoppingCart, Image, Share, Settings, Lock,
-  Map, Users, AlertTriangle, Video, DollarSign, Coffee
+  Search, Settings, Code, Key, Globe, Server,
+  Zap, Terminal, HardDrive, Lock, Headphones
 } from "lucide-react";
 
 export const skillCategories = [
   {
-    title: "Development & Programming",
-    icon: Code,
-    skills: ["PHP", "Java", "HTML", "CSS", "MySQL", "SQL", "JavaScript", "Version Control (Git)"]
+    title: "Operating Systems",
+    icon: Monitor,
+    skills: [
+      "Windows: Installation, troubleshooting, and administration",
+      "Linux: Command line usage, troubleshooting, and configuration"
+    ]
   },
   {
-    title: "E-commerce Platforms",
-    icon: ShoppingCart,
-    skills: ["Shopify", "WooCommerce", "Magento", "Custom Solutions"]
+    title: "Productivity and Collaboration Tools",
+    icon: MessageSquare,
+    skills: [
+      "Microsoft Office Suite",
+      "Google Workspace",
+      "Remote Support Tools (TeamViewer, AnyDesk, LogMeIn)"
+    ]
   },
   {
-    title: "Digital Marketing",
-    icon: Share,
-    skills: ["SEO", "Social Media Marketing", "Content Strategy", "Email Marketing"]
+    title: "Ticketing and Help Desk Software",
+    icon: FileText,
+    skills: [
+      "ServiceNow",
+      "JIRA Service Management",
+      "Zendesk",
+      "Freshdesk"
+    ]
   },
   {
-    title: "Analytics & Tracking",
-    icon: BarChart,
-    skills: ["Google Analytics", "Tag Manager", "Facebook Pixel", "Conversion Tracking"]
+    title: "Networking Tools",
+    icon: Network,
+    skills: [
+      "Cisco Packet Tracer",
+      "Wireshark",
+      "Ping and Tracert/Traceroute",
+      "VPN Clients"
+    ]
   },
   {
-    title: "Security & Infrastructure",
-    icon: Lock,
-    skills: ["SSL/HTTPS", "SSH", "Cloudflare", "VPNs", "Firewalls"]
+    title: "Security and Endpoint Protection",
+    icon: Shield,
+    skills: [
+      "Antivirus Software",
+      "Firewalls",
+      "Multi-factor Authentication (MFA)"
+    ]
   },
   {
-    title: "Server Management",
+    title: "Hardware Diagnostic Tools",
+    icon: Wrench,
+    skills: [
+      "Device Manager",
+      "System Preferences",
+      "BIOS/UEFI"
+    ]
+  },
+  {
+    title: "Database and Scripting",
+    icon: Terminal,
+    skills: [
+      "SQL Basics",
+      "PowerShell",
+      "Bash/Shell Scripting"
+    ]
+  },
+  {
+    title: "Software Management",
+    icon: Download,
+    skills: [
+      "Microsoft SCCM/Intune",
+      "Software compatibility troubleshooting",
+      "Application updates"
+    ]
+  },
+  {
+    title: "Cloud Services",
+    icon: Cloud,
+    skills: [
+      "AWS/Azure Basics",
+      "OneDrive, Google Drive",
+      "Microsoft 365 Admin Center"
+    ]
+  },
+  {
+    title: "Virtualization",
     icon: Server,
-    skills: ["Hosting", "Domain Management", "CDN", "Caching", "FTP"]
+    skills: [
+      "VMware Workstation",
+      "Hyper-V"
+    ]
   },
   {
-    title: "Payment Systems",
-    icon: DollarSign,
-    skills: ["Payment Gateways", "Stripe", "PayPal", "Cryptocurrency"]
+    title: "Backup and Recovery",
+    icon: Save,
+    skills: [
+      "Acronis True Image",
+      "Windows System Restore",
+      "Backup Exec"
+    ]
   },
   {
-    title: "Content & Design",
-    icon: Palette,
-    skills: ["UI/UX Design", "Logo Design", "Image Optimization", "Video Creation"]
+    title: "IT Documentation and Monitoring",
+    icon: Search,
+    skills: [
+      "Confluence",
+      "Nagios",
+      "SolarWinds"
+    ]
   },
   {
-    title: "Monetization",
-    icon: Coffee,
-    skills: ["AdSense", "AdMob", "Affiliate Marketing", "Unity Ads"]
-  },
-  {
-    title: "Tools & Automation",
-    icon: Settings,
-    skills: ["Lumen5", "Viddyoze", "Automation Scripts", "CI/CD"]
+    title: "Professional Skills",
+    icon: Headphones,
+    skills: [
+      "Technical communication",
+      "Problem-solving",
+      "ITIL best practices"
+    ]
   }
 ];
