@@ -11,10 +11,10 @@ const EducationSection = () => (
     </CardHeader>
     <CardContent className="space-y-6">
       <div>
-        <h3 className="text-lg font-semibold">Degree Name</h3>
-        <p className="text-gray-600">University Name • Graduation Year</p>
+        <h3 className="text-lg font-semibold">Dual Bachelor of Science - Economics and Finance</h3>
+        <p className="text-gray-600">Towson State University • Baltimore, MD</p>
         <p className="text-gray-600 mt-2">
-          Additional details about your education, achievements, or relevant coursework.
+          Comprehensive education in economic theory, financial markets, and quantitative analysis.
         </p>
       </div>
     </CardContent>
