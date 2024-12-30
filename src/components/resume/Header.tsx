@@ -10,7 +10,7 @@ const Header = () => (
       </AvatarFallback>
     </Avatar>
     <div className="text-center sm:text-left">
-      <h1 className="text-4xl font-bold text-gray-900">Your Name</h1>
+      <h1 className="text-4xl font-bold text-gray-900">Gregory de la Cruz</h1>
       <p className="text-xl text-gray-600 mt-2">Professional Title</p>
       <div className="flex gap-4 mt-4 justify-center sm:justify-start">
         <a href="mailto:your.email@example.com" className="text-gray-600 hover:text-gray-900">
