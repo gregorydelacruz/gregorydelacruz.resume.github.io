@@ -4,7 +4,7 @@ import { Mail, User, Github, Linkedin } from "lucide-react";
 const Header = () => (
   <div className="flex flex-col sm:flex-row items-center gap-6 mb-8">
     <Avatar className="h-24 w-24">
-      <AvatarImage src="/placeholder.svg" alt="Profile Picture" />
+      <AvatarImage src="/lovable-uploads/0006fba3-f602-4b69-bca6-b69de2c351f3.png" alt="Gregory de la Cruz" />
       <AvatarFallback>
         <User className="h-12 w-12" />
       </AvatarFallback>
