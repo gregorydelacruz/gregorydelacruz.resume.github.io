@@ -16,7 +16,7 @@ const Header = () => (
         <a href="mailto:your.email@example.com" className="text-gray-600 hover:text-gray-900">
           <Mail className="h-5 w-5" />
         </a>
-        <a href="https://github.com" className="text-gray-600 hover:text-gray-900">
+        <a href="https://github.com/gregorydelacruz" className="text-gray-600 hover:text-gray-900">
           <Github className="h-5 w-5" />
         </a>
         <a href="https://linkedin.com" className="text-gray-600 hover:text-gray-900">
