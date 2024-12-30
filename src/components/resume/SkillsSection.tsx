@@ -18,7 +18,7 @@ const SkillsSection = () => (
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
+                  className="bg-blue-50 text-gray-800 px-3 py-1 rounded-full text-sm"
                 >
                   {skill}
                 </span>
